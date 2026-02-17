@@ -11,3 +11,5 @@ Initial validation goals:
 - Check class imbalance
 - Validate data types
 - Identify missing values
+
+Repository structure:
