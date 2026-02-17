@@ -1,5 +1,6 @@
-Raw dataset is not stored in the repo
+The raw dataset is not stored in this repository.
 
-Download instructions + link to UCI
+Please download the UCI Credit Card Default dataset from:
+https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
 
-No PII, open dataset only
+Only publicly available open data is used. No PII is included.
