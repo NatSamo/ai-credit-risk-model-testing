@@ -13,22 +13,24 @@ Initial validation goals:
 - Identify missing values
 
 Repository structure:
+```
 ai-credit-risk-model-testing/
 │
-├── data/ # Dataset download instructions (raw data not stored)
-│ └── README.md
+├── data/                       # Dataset download instructions (raw data not stored)
+│   └── README.md
 │
-├── notebooks/ # Jupyter notebooks for model testing workflow
-│ └── README.md
+├── notebooks/                  # Jupyter notebooks for model testing workflow
+│   └── README.md
 │
-├── results/ # Exported metrics, plots and evaluation outputs
+├── results/                    # Exported metrics, plots and evaluation outputs
 │
-├── test_strategy.md # AI QA validation approach and testing scope
-├── metrics_evaluation.md # Metrics analysis and threshold considerations
-├── bias_fairness.md # Subgroup analysis and fairness assessment
-├── robustness_metamorphic.md # Robustness testing and metamorphic relations
-├── monitoring_plan.md # Production monitoring and drift strategy
+├── test_strategy.md            # AI QA validation approach and testing scope
+├── metrics_evaluation.md       # Metrics analysis and threshold considerations
+├── bias_fairness.md            # Subgroup analysis and fairness assessment
+├── robustness_metamorphic.md   # Robustness testing and metamorphic relations
+├── monitoring_plan.md          # Production monitoring and drift strategy
 │
-├── requirements.txt # Project dependencies
+├── requirements.txt            # Project dependencies
 ├── .gitignore
 └── README.md
+```
